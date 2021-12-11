@@ -1,34 +1,29 @@
-## Get Started
-
-Clone, or fork the project, then using the command to start watching and developing
-
-```bash
-yarn dev
-```
-
-The project was built using VuePress v2.0, which the documentation can be found [here](https://vuepress.vuejs.org). To create a page, simply create an markdown file inside the directory you wanted.
-
-## Components
-
-There are two components which are created by the project: **Calculator** and **LandingAction**, which can be use like the example below.
-
-```markdown
 ---
+home: true
+title: "Trang chủ"
+tagline: "Cổng thông tin đại học"
+heroImage: /images/hero.png
+footer: MIT Licensed | Copyright © Catouberos
+
 landingButton:
-  - title: "the title"
-    description: "the description"
-    link: /the-link
+  - title: "Tìm trường"
+    description: "Xem lựa chọn Đại học, Cao đẳng hoặc Du học"
+    link: /truong/
+  - title: "Điểm chuẩn"
+    description: "Điểm chuẩn thi vào các trường mới nhất"
+    link: /diem-chuan/
+  - title: "Khối thi Đại học"
+    description: "Các khối thi Đại học và môn thi"
+    link: /nganh-hoc/khoi-thi.md
+  - title: "Thủ tục / hồ sơ"
+    description: "Một số thủ tục và hồ sơ cần thiết để bắt đầu"
+    link: /thu-tuc-ho-so/
+  - title: "Công cụ tính điểm"
+    description: "Nhập và tính điểm xét tuyển ưu tiên Đại học"
+    link: /cong-cu/tinh-diem.md
+  - title: "Tin tức"
+    description: "Các tin tức cập nhật về tuyển sinh, du học"
+    link: /tin-tuc
 ---
-
-# Hi, what do you want to do?
 
 <LandingAction />
-```
-```markdown
-# The scoring calculator
-
-<Calculator />
-```
-
-## Deploy
-The project was deploy on [Vercel](https://vercel.dev), but you can deploy anywhere including Github Pages or even Cloudflare Pages.
